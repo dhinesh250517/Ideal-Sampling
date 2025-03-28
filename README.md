@@ -1,10 +1,10 @@
-AIM
+## AIM
 To demonstrate ideal sampling of a continuous signal using Scilab, ensuring accurate signal reconstruction while avoiding aliasing
 
-COMPONENTS REQUIRED:
+## COMPONENTS REQUIRED:
 python IDE with Numpy and Scipy
 
-PROGRAM:
+## PROGRAM:
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -44,7 +44,7 @@ plt.legend()
 plt.show()
 ```
 
-OUTPUT WAVEFORMS:
+## OUTPUT WAVEFORMS:
 ![WhatsApp Image 2025-03-28 at 10 30 27_dbd3b3ec](https://github.com/user-attachments/assets/97e78c5f-f734-4757-a1a9-c0db46ac3494)
 ![WhatsApp Image 2025-03-28 at 10 30 27_c40e452a](https://github.com/user-attachments/assets/cea1fddc-13c3-4b57-ad45-d5976c648c8e)
 ![WhatsApp Image 2025-03-28 at 10 30 27_c54e956d](https://github.com/user-attachments/assets/20548664-6c6e-4eb0-8aa7-0e15a8452245)
@@ -52,5 +52,5 @@ OUTPUT WAVEFORMS:
 
 
 
-RESULT:
+## RESULT:
 Ideal sampling captures a continuous signal at perfect intervals, ensuring accurate reconstruction if sampled at twice the highest frequency (Nyquist rate). It’s a key concept in digital signal processing and telecommunications. Practical systems approximate ideal sampling with some limitations.
